@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+  }
+  
+
+
+#img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .container img {vertical-align: middle;}
+
+  .container .content {
+    position: absolute;
+    top: 0;
+    
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .tex {
+    color:green;
+  }
+
+  form {
+    width: 800px;
+    margin: auto;
+}
+
+.center{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+audio{
+    color: black;
+    width: 600px;
+}
