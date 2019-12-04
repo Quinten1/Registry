@@ -1,8 +1,14 @@
 <?php
-    $host = '127.0.0.1';
-    $db = 'registry_db';
-    $user = 'root';
-    $pass = '';
+    // $host = '127.0.0.1';
+    // $db = 'registry_db';
+    // $user = 'root';
+    // $pass = '';
+    // $charset = 'utf8mb4';
+
+    $host = 'remotemysql.com';
+    $db = 'hs0zhjFiU1';
+    $user = 'hs0zhjFiU1';
+    $pass = 'rFPvJMTOok';
     $charset = 'utf8mb4';
 
 
