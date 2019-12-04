@@ -79,7 +79,7 @@ $result = $crud->getGender();
                 
         
           <br><br><br>
-          <a href="loginpage.php" class="btn btn-secondary" style="" role="button">Back to Profile</a>
+          <a href="loginpage.php" class="btn btn-secondary" style="" role="button">Back</a>
           </div>
           
   

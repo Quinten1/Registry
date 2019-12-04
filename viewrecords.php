@@ -11,11 +11,11 @@ $results = $crud->getAccounts();
 
 
 
-?>
+?><br>
 
 
-<table class="table table-bordered">
-  <thead>
+<table class="table table-bordered table-hover">
+  <thead class="bg-primary">
     <tr>
       <th>#</th>
       <th>First Name</th>
@@ -27,7 +27,7 @@ $results = $crud->getAccounts();
     </tr>
     <?php while($r = $results->fetch(PDO::FETCH_ASSOC)) {  ?>
         
-        <tr>
+        <tr class="table-light table-border">
             <td> <?php echo $r['account_id'] ?></td>
             <td><?php echo $r['firstname'] ?></td>
             <td><?php echo $r['lastname'] ?></td>
@@ -39,7 +39,8 @@ $results = $crud->getAccounts();
         </tr>
     <?php }?>
   
-</table>
+</table><br>
+                <a href="createaccount.php" class="btn btn-warning">Create a user</a>
 
 
 

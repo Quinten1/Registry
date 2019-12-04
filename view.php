@@ -26,7 +26,7 @@ require_once 'db/conn.php';
 
 <div style="margin:auto"><br>
 
-<img src="<?php echo empty($result['avatar_path'])? "uploads/avatar.jpg" : $result['avatar_path'];?>" 
+<img src="<?php echo empty($result['avatar_path'])?  : $result['avatar_path'];?>" 
         class="rounded-circle card-img-top center" style="width:50%; height:50%"/>
 
         <div class="card-body ">
@@ -40,7 +40,7 @@ require_once 'db/conn.php';
         </div>
 </div>
     <br>
-        <a href="viewrecords.php" class="btn btn-info">Back to List</a>
+        <a href="viewrecords.php" class="btn btn-secondary">Back to List</a>
         <a href="edit.php?id=<?php echo $result['account_id'] ?>" class="btn btn-warning">Edit</a>
         <a onclick = "return confirm('Are you sure you want to delete this record?');"
          href="delete.php?id=<?php echo $result['account_id'] ?>" class="btn btn-danger">Delete</a>

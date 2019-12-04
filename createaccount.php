@@ -7,7 +7,7 @@ require_once 'db/conn.php';
 
 $result = $crud->getSpecialties();
    
-?>
+?><br>
 
 <h1 class="text-center">Create Account</h1><br><br>
 

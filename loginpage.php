@@ -68,7 +68,7 @@ require_once 'db/conn.php';
 </div><br>
 
         <p class="text-center">Please click the button below and fill out the form to register for our services.</p><br>
-        <a class="btn btn-primary btn-block" href="register.php" role="button">Register</a>
+        <a class="btn btn-success btn-block" href="register.php" role="button">Register</a>
 
 
 

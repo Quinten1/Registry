@@ -18,14 +18,19 @@
         
         $orig_file = $_FILES["avatar"]["tmp_name"];
         $ext = pathinfo($_FILES["avatar"]["name"], PATHINFO_EXTENSION);
-        $target_dir = 'uploads/';
+        
+        
+        
+        $target_dir = "uploads/";
         $destination = "$target_dir$email.$ext";
         move_uploaded_file($orig_file,$destination);
-
-      
+       
+        
+        
         $isSuccess = $crud->insertAccounts($firstname, $lname, $gender, $email, $address, $specialty, $destination);
         $specialtyName = $crud->getSpecialtyById($specialty);
         $genderName = $crud->getGenderById($gender);
+        
 
         if($isSuccess){
            // sendEmail::sendMail($email,'', 
@@ -40,13 +45,14 @@
     }
   
 
-?>
+?> 
 
-<div class="card-group text-white bg-secondary mb-3 text-center" style="width: 18rem; margin:auto" >
+
+<div class="card-group text-white bg-secondary mb-3 text-center" style="width: 18rem; margin:auto">
 
         <div style="margin:auto"><br>
                 
-        <img src="<?php echo empty($result['avatar_path']) ? "uploads/avatar.jpg" : $result['avatar_path']?>" 
+        <img src="<?php echo empty($_FILES['avatar']['name']) ? "uploads/avatar.jpg" : $destination ?>" 
         class="rounded-circle card-img-top center" style="width:50%; height:50%"/>
 
         <div class="card-body">

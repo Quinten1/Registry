@@ -25,8 +25,8 @@ require_once 'db/conn.php';
     </audio>  
   </div>
   <br>
-  <div class="container alert alert-dark" style="text-align:center">
-      <h3 class="tex">Music License</h3>
+  <div class="container alert alert-light text-dark" style="text-align:center">
+      <h3 class="text-primary text-center"><u>Music License</u></h3>
       <p>THE COPYRIGHT ACT OF JAMAICA 1993/1999 assures authors and owners of original musical, 
           dramatic or artistic works certain exclusive rights over the use of their works. 
           These rights means that for any use of the work, permission or a ‘licence’ has to be sought 
@@ -40,8 +40,8 @@ require_once 'db/conn.php';
               or staff must have a licence to do so.</p>
     </div><br>
 
-    <div class="alert alert-secondary" role="alert">
-        <h4 class="tex">What service does JMR provide for members?</h4>
+    <div class="alert alert-light text-dark " role="alert">
+        <h4 class="text-primary text-center"><u>What service does JMR provide for members?</u></h4>
         <p>It would be impossible for the individual composer, lyricist, songwriter or publisher to monitor 
             the public performances and broadcasts by thousands of users of their music across Jamaica and 
             the rest of the world, to issue licenses and collect royalties due.
@@ -53,6 +53,7 @@ affiliated societies as royalties.</p>
 </div>
   
 </div>
+
 
 
 
