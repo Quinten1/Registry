@@ -3,9 +3,8 @@
     $title = 'Registration Success';
 
     require_once 'includes/header.php'; 
-   // require_once 'includes/auth_check.php';
     require_once 'db/conn.php';
-    //require 'sendemail.php';
+  
 
 
     if(isset($_POST['submit'])){
@@ -33,7 +32,7 @@
         
 
         if($isSuccess){
-           // sendEmail::sendMail($email,'', 
+           
           
            include 'includes/successmessage.php';
 

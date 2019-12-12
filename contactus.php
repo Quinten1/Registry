@@ -16,10 +16,10 @@ require_once 'includes/header.php';
    
   </div>
         <ul class="list-group list-group-flush  ">
-            <li class="list-group-item bg-dark text-center">Kingston.....................................(876)977-2589</li>
-            <li class="list-group-item bg-dark text-center">Montego Bay.....................................(876)633-4586</li>
+            <li class="list-group-item bg-dark text-center">Kingston.........................................(876)977-2589</li>
+            <li class="list-group-item bg-dark text-center">Montego Bay......................................(876)633-4586</li>
             <li class="list-group-item bg-dark text-center">Spanish Town.....................................(876)984-0077</li>
-            <li class="list-group-item bg-dark text-center">Mandeville.....................................(876)625-3175</li>
+            <li class="list-group-item bg-dark text-center">Mandeville.......................................(876)625-3175</li>
             <li class="list-group-item bg-dark text-center"><u>Address</u></li>
 
             <li class="list-group-item bg-dark text-center">25 Gordon Town</li>

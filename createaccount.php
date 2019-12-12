@@ -18,11 +18,11 @@ $result = $crud->getSpecialties();
      <div class="row"> 
         <div class="col-6">
         <label for="username">Username</label>
-      <input type="text" class="form-control" placeholder="Username" name="username">
+      <input type="text" class="form-control" placeholder="Username" name="username" style="text-align:left">
         </div> <br>
         <div class="col-6">
         <label for="username">Password</label>
-      <input type="password" class="form-control" placeholder="Password" name="password">
+      <input type="password" class="form-control" placeholder="Password" name="password" style="text-align:left">
      
             </div> </div> <br>
     
