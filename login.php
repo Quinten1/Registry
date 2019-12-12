@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
        
         $_SESSION['username'] = $username;
         $_SESSION['userid'] = $result['users_id'];
-        header("Location: loginpage.php");
+        header("Location: viewrecords.php");
     }
 
     
